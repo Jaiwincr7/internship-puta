@@ -1,0 +1,282 @@
+* {
+    margin: auto;
+}
+body {
+    background-color: #DEF5E5;
+}
+header {
+    background-color: #00FFAB;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.logo {
+    margin-left: 0;
+    width: 20%;
+    display: none;
+}
+.h-display {
+    margin-left: 0;
+    display: block;
+}
+.h-block {
+    width: 100vw;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.area {
+    font-size: 1rem;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 1px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.serch {
+    max-width: fit-content;
+    margin-left: 1em;
+    display: flex;
+}
+.serch i {
+    padding-right: 0.2em;
+}
+.h-block i {
+    font-size: 25px;
+}
+.bell {
+    margin-right: 1em;
+    width: auto;
+}
+header h1 {
+    display: none;
+    max-width: max-content;
+    margin: auto;
+    font-size: 2rem;
+}
+.s-block {
+    width: max-content;
+    padding: 6px;
+}
+/* .s-block input{
+    font-size: 1rem;
+} */
+header input {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    /* width: max-content; */
+    background-color: white;
+    border: 1px black;
+    border-radius: 4px;
+    width: 85vw;
+    font-size: 1.3rem;
+}
+.fa-microphone {
+    font-size: 20px;
+}
+
+/* swiper */
+.swiper {
+    max-width: fit-content;
+    margin: 10px auto;
+    display: flex;
+}
+.swiper .span1 {
+    background-color: #B2B2B2;
+    padding: 5px;
+    font-size: 1.5rem;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 10px 36px 0px, rgba(0, 0, 0, 0.06) 0 0 0 1px;
+}
+.swiper .span1:hover{
+    background-color: black;
+    cursor: pointer;
+}
+/* swiper */
+
+.services {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    background-color: aliceblue;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 1px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
+.list {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    width: auto;
+}
+
+.list i {
+    max-width: fit-content;
+}
+.list i:hover {
+    cursor: pointer;
+}
+.services figcaption {
+    margin: auto;
+    width: 22vw;
+    /* max-width: fit-content; */
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    width: 95%;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #00FFAB;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+}
+.heading-3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.product {
+    background-color: #EFF5F5;
+    width: 80%;
+    display: flex;
+}
+.product img {
+    padding: 10px;
+    width: 30%;
+}
+.product .span3,
+.span2 {
+    background-color: #00FFAB;
+    padding: 5px;
+    margin: auto;
+    font-size: 1.5rem;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 10px 36px 0px, rgba(0, 0, 0, 0.06) 0 0 0 1px;
+}
+.product .span3:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+}
+.product .span2:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+}
+
+.col-servies {
+    margin: auto;
+}
+.col-1 span {
+    display: flex;
+}
+.col-1 span figure:hover {
+    font-size: 1.2rem;
+    padding: 15px;
+}
+.col-1 span figure {
+    margin: 20px;
+    padding: 10px;
+    margin: auto;
+}
+.col-1 span figcaption {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+}
+.col-1 span img {
+    width: 100%;
+}
+
+footer {
+    background-color: #00FFAB;
+    text-align: center;
+}
+footer i {
+    font-size: 25px;
+    padding: 10px;
+}
+footer p {
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+@media only screen and (min-width: 600px) {
+    header {
+        display: block;
+    }
+    .logo-name {
+        text-align: center;
+        display: flex;
+    }
+    header h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        display: block;
+    }
+    .serch i{
+        margin-left: 3em;
+    }
+    .bell{
+        text-align: center;
+        margin-right: 6em;
+    }
+    header input{
+        width: 80vw;
+    }
+    .swiper{
+        width: 50vw;
+        height: 50vh;
+    }
+    .swiper img{
+        width: 100vw;
+    }
+    .services{
+        width: 88%;
+    }
+    .services .list{
+        padding: 10px;
+    }
+    .heading{
+        width: 90%;
+    }
+    .product{
+        width: 100%;
+        height: 100%;
+    }
+    .col-servies{
+        display: flex;
+    }
+    .col-servies span{
+        display: block;
+    }
+    .swiper-flex{
+        display: flex;
+        margin-bottom: 30px;
+    }
+    footer{
+        height: 18vh;
+    }
+    footer i{
+        padding: 30px;
+        font-size: 35px;
+    }
+}
+@media only screen and (min-width: 1100px){
+    .serch i{
+        margin-left: 4em;
+    }
+    .bell{
+        text-align: center;
+        margin-right: 9em;
+    }
+}
